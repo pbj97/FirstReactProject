@@ -1,0 +1,39 @@
+{
+  "name": "firstreactproject",
+  "version": "1.0.0",
+  "description": "This is Beomjin's portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next bulid",
+    "prettier": "prettier -write .",
+    "test": "jest",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbj97/FirstReactProject.git"
+  },
+  "keywords": [],
+  "author": "Parkbeomjin<beom0556@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pbj97/FirstReactProject/issues"
+  },
+  "homepage": "https://github.com/pbj97/FirstReactProject#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "framer-motion": "^6.3.11",
+    "jest": "^28.1.1",
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-next": "^12.1.6",
+    "prettier": "^2.7.1"
+  }
+}
