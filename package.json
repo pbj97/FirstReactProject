@@ -1,26 +1,25 @@
 {
-  "name": "firstreactproject",
+  "name": "jamessong-portfolio",
   "version": "1.0.0",
-  "description": "This is Beomjin's portfolio website",
+  "description": "This is James Song's portfolio website",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "next bulid",
-    "prettier": "prettier -write .",
-    "test": "jest",
-    "lint": "next lint"
+    "build": "next build",
+    "prettier": "prettier -write",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pbj97/FirstReactProject.git"
+    "url": "git+https://github.com/one-summers-day/FirstReactProject.git"
   },
   "keywords": [],
-  "author": "Parkbeomjin<beom0556@gmail.com>",
+  "author": "James Song<memoryleak@kakao.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pbj97/FirstReactProject/issues"
+    "url": "https://github.com/one-summers-day/FirstReactProject/issues"
   },
-  "homepage": "https://github.com/pbj97/FirstReactProject#readme",
+  "homepage": "https://github.com/one-summers-day/FirstReactProject#readme",
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
