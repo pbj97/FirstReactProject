@@ -1,7 +1,7 @@
 {
-  "name": "jamessong-portfolio",
+  "name": "parkbeomjin-portfolio",
   "version": "1.0.0",
-  "description": "This is James Song's portfolio website",
+  "description": "This is Parkbeomjin portfolio website",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
@@ -17,9 +17,9 @@
   "author": "James Song<memoryleak@kakao.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/one-summers-day/FirstReactProject/issues"
+    "url": "https://github.com/pbj97/FirstReactProject/issues"
   },
-  "homepage": "https://github.com/one-summers-day/FirstReactProject#readme",
+  "homepage": "https://github.com/pbj97/FirstReactProject#readme",
   "dependencies": {
     "@chakra-ui/react": "^2.2.1",
     "@emotion/react": "^11.9.3",
