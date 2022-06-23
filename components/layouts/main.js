@@ -1,18 +1,19 @@
-import Head from 'next/Head'
-import { Box, Container} from '@chakra-ui/react'
+import Head from 'next/head'
+import { Box, Container } from '@chakra-ui/react'
 
-const Main = ({Children,router}) => {
-    return (
-        <Box as="main" pb = {8}>
-            <Head>
-                <meta name="viewport" content="width=divice-width, initial-scale = 1" />
-                <title>Beomjin Park - Homepage</title>
-            </Head>
-            <Container maxWidth="container.md" pt = {14}>
-                 {Children}
-            </Container>
-        </Box>
-    )
+const Main = ({children, router}) =>  {
+      return (
+            <Box as="main" pb = {8}>
+                  <Head>
+                        <meta name="viewport" content = "width=device-width, initial-scale = 1" />
+                        <title> James Song - Homepage</title>
+                  </Head>
+                  
+                  <Container maxWidth="container.md" pt = {14}>
+                      {children}  
+                  </Container>
+            </Box>
+      )
 }
 
 export default Main
