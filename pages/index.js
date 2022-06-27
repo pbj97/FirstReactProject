@@ -3,7 +3,7 @@ const Page = () => {
   return (
     <Container>
       <Box borderRadius="lg" bg="red" p={3} mb={6} align="center">
-        안녕하세요! 서울에 살고 있는 프론트엔드 개발자 박범진이라고 합니다.
+        안녕하세요! 한국에 살고 있는 프론트엔드 개발자 박범진이라고 합니다.
       </Box>
 
       <Box display={{ md: 'flex' }}>

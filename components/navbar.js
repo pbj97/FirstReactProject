@@ -15,6 +15,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
+import ThemeToggleButton from './theme-toggle-button';
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href;
@@ -70,14 +71,14 @@ const Navbar = (props) => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            작업물
+            Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            블로그
+            Posts
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/pbj97/FirstReactProject"
+            href="https://github.com/pbj97"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -89,6 +90,8 @@ const Navbar = (props) => {
         </Stack>
 
         <Box flex={1} align="right">
+          <ThemeToggleButton />
+
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
@@ -107,10 +110,7 @@ const Navbar = (props) => {
                 <NextLink href="/posts" passHref>
                   <MenuItem as={Link}>Posts</MenuItem>
                 </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/pbj97/FirstReactProject"
-                >
+                <MenuItem as={Link} href="https://github.com/pbj97">
                   View Source
                 </MenuItem>
               </MenuList>
